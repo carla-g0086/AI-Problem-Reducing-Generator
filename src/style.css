@@ -1,18 +1,23 @@
 h1 {
     text-align: center;
-    color:orange;
+   text-shadow: 5px 14px 8px rgba(36, 2, 38, 0.4);
+color: #240226;
     font-size: 28px;
     line-height: 48px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
+   
+   
 }
-H2{
+h2{
+    margin-top: 150px;
     text-align: center;
     color: chocolate;
     font-size: 28px;
     line-height: 48px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
+    text-shadow: 26px 19px 2px rgba(245, 238, 16, 0.4);
 }
 footer{
     text-align: center;
@@ -29,4 +34,121 @@ body{
 .funnyEmoji{
     display: block;
     margin: 0 auto;
+}
+.hotairBalloon{
+    display: flex;
+    justify-content: left;
+    position: absolute;
+}
+.hotairBalloon:hover{
+    zoom: 110%;
+}
+.WBYT{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.lotto{
+    display: block;
+    margin: 0 auto;
+}
+ button {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid color(#A44101 #FF0100 #6FA705 #CD1E35);
+    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
+    color: #140404;
+    font-size: 16px;
+    font-style: italic;
+    stroke: #044d0e;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 22px;
+    padding: 16px 22px;
+    border-radius: 30px;
+    transition: all 200ms ease;
+    box-shadow: rgba(37, 89, 40, 0.08) 0px 8px 8px 0;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fff;
+    color: #1a64d6;
+    border: 1px solid #7dbc11
+        }
+.solutionButton{
+    display: block;
+    margin: 20px auto;
+    border: 1px solid color(#A44101 #FF0100 #6FA705 #CD1E35);
+   background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
+    color: #140404;
+    font-size: 16px;
+    font-style: italic;
+    stroke: #044d0e;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 22px;
+    padding: 16px 22px;
+    border-radius: 30px;
+    transition: all 200ms ease;
+    box-shadow: rgba(37, 89, 40, 0.08) 0px 8px 8px 0;
+    cursor: pointer;
+}
+.solutionButton:hover{
+    background-color: #fff;
+    color: #1a64d6;
+    border: 1px solid #7dbc11
+}
+.generatedSolution{
+background: linear-gradient(109.6deg, rgb(255, 230, 109) 11.2%, rgb(87, 232, 107) 100.2%);
+width: 200px;
+height: 300px;
+border: 1px;
+padding: 10px;
+margin: 10px;
+border-radius: 10px 20px 10px 20px;
+box-shadow: 9px 10px 9px 5px rgba(0, 0, 0, 0.2);
+}
+.generatedSolution:hover{
+    zoom: 120%;
+}
+.generatedQuote{
+background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+width: 200px;
+height: 300px;
+border: 1px;
+padding: 10px;
+margin: 10px;
+border-radius: 20px 10px 20px 10px;
+box-shadow: 9px 10px 9px 5px rgba(0, 0, 0, 0.2);
+}
+.generatedQuote:hover{
+    zoom: 120%;
+}
+.generatedNumbers{
+background: rgba(136, 93, 241, 0);
+color: rgba(136, 93, 241, 0);
+width: 500px;
+height: 50px;
+border: 1px;
+padding: 10px;
+margin-bottom: 20px;
+margin-top: 20px;
+border-radius: 10px 20px 10px 20px;
+box-shadow: 9px 10px 9px 5px rgba(0, 0, 0, 0.2);
+display: block;
+margin: 0 auto;
+}
+
+#threeStooges{
+    display: flex;
+    justify-content: space-evenly;
+}
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+#problemInput{
+    box-shadow: 6px 6px 9px 5px rgba(0, 0, 0, 0.2);
+    padding: 7px;
+    border-radius: 10px;
+    background: rgba(136, 93, 241, 0);
+    border: 5px ridge #5dd1f1;
 }
