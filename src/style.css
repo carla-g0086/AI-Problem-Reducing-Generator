@@ -34,6 +34,14 @@ body{
 .funnyEmoji{
     display: block;
     margin: 0 auto;
+    transition: 1s ease;
+}
+
+.funnyEmoji:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
 }
 .hotairBalloon{
     display: flex;
