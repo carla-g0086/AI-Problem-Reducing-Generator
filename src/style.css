@@ -115,6 +115,7 @@ box-shadow: 9px 10px 9px 5px rgba(0, 0, 0, 0.2);
 margin-top: 2px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 margin: 10px 10px 110px 10px;
+position: relative;
 }
 #generatedSolution:hover{
     zoom: 110%;
@@ -135,6 +136,7 @@ margin: 10px 10px 10px 110px;
 text-align: center;
 font-style: oblique;
 font-size: large;
+position: relative;
 }
 #generatedQuote:hover{
     zoom: 110%;
