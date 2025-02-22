@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Problem Reducing Generator</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
     <h1>Welcome to AI Problem Reducing Generator!</h1>
     <div class="WBYT">
-    <form action="/submit">
+    <form id="generatesolutionNow" action="/submit">
     <label for="Generate Solution">What bothers you today?⌨</label>
-    <input type="text" id="problemInput" required autocomplete="off" placeholder="Type it in here">
-<input type="submit" value="Generate Solution" class="solutionButton">
+    <input type="text" id="problemInput"  autocomplete="off" placeholder="Type it in here">
+    <input type="submit" value="Generate Solution" class="solutionButton">
+
 </form>
 </div>
 <div id="threeStooges">    
 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/251/original/EVERYDAY_is_%281%29.png?1740012650" alt="Hot air balloon with a message: Everyday is a chance to improve." width="500" class="hotairBalloon">
     <div class="container1" >
-<p class="generatedSolution"></p>
+<p id="generatedSolution"></p>
     </div>
     <div class="container2">
-    <p class="generatedQuote"></p>
+    <p id="generatedQuote"></p>
     </div>
     </div>
     <br>
@@ -29,10 +32,10 @@
     <h2>JUST FOR FUN!</h2>
     <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/395/original/Untitled_design_%283%29.png?1740164844"
         alt="funny emojis" width="150" class="funnyEmoji">
-<button class="lotto">Generate Winning Numbers</button>
+<button id="lotto">Generate Winning Numbers</button>
 <br>
 <br>
-<p class="generatedNumbers"></p>
+<p id="generatedNumbers"></p>
 <br>
 <br>
     <footer>This AI project was coded by <a href="https://github.com/carla-g0086" target="_blank">Carla Gratz</a> 
