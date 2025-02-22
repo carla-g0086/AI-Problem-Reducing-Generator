@@ -116,6 +116,7 @@ margin-top: 2px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 margin: 10px 10px 110px 10px;
 position: relative;
+text-align: justify;
 }
 #generatedSolution:hover{
     zoom: 110%;
